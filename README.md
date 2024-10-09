@@ -10,9 +10,9 @@ This is a template project for Android Studio that allows you to create an andro
    
 2. Navigate to the `app/scr/main/java/com.example.app/MyWebViewClient.java` file and replace `"example.com"` on line 16 with your specific hostname.
 
-	```java
+```java
 	String hostname = "example.com";
-	```
+```
 3. If you need to change the package name, edit it in the `app/build.gradle` file at line 7.
 
 Example:
