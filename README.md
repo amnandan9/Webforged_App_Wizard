@@ -2,18 +2,18 @@ This is a template project for Android Studio that allows you to create an andro
 
 ### Getting started
 
-[Download](https://github.com/azhinu/Web-to-App/archive/master.zip) or clone this repository and import it into Android Studio.
+[Download](https://github.com/amnandan9/Webforged_App_Wizard/archive/refs/heads/main.zip) or clone this repository and import it into Android Studio.
 
 ### Using a remote source
 
-1. Open `app/src/main/res/values/strings.xml` and edit `app_name` and `web_url` strings.
-
-2. Open the `app/scr/main/java/com.example.app/MyWebViewClient.java` file and replace `example.com` on line **16** with your hostname.
+1. Open the`app/src/main/res/values/strings.xml` file and modify the `app_name` and `web_url` string values as needed.
+   
+2. Navigate to the `app/scr/main/java/com.example.app/MyWebViewClient.java` file and replace `"example.com"` on line 16 with your specific hostname.
 
 	```java
 	String hostname = "example.com";
 	```
-3. If you want to change package name, go to `app/build.gradle` and change it on line **7**./
+3. If you need to change the package name, edit it in the `app/build.gradle` file at line 7.
 
 Example:
 
@@ -21,18 +21,15 @@ Example:
 	applicationId "com.example.app"
 ```
 
-### Using a local source
+Using a Local Source
+To create a local HTML5 Android app, place all your files `(including index.html)` inside the `assets` directory.
 
-If you want to create a local HTML5 android app put all your files (including your `index.html`) in the `assets` directory
-
-### Branding
-
-If you want to change package name, go to `app/build.gradle` and change it on line **7**./
-
+Branding
+If you want to change the package name, update it in the `app/build.gradle` file on line 7.
 Example:
 
 ```java
 	applicationId "com.example.app"
 ```
 
-To change application icon, replace files in `app/src/main/res/mipmap-*` with your icon.
+To update the application icon, replace the files in the `app/src/main/res/mipmap-*` directories with your new icon.
